@@ -1,0 +1,40 @@
+.app {
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
+.formGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+button.btn.btn-primary.mb-3 {
+  margin: 0 0 0 15px;
+}
+.card {
+  margin-bottom: 5px;
+}
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+.light {
+  background-color: #fff;
+  color: #333;
+}
+button.btn.btn-secondary {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  float: right;
+}
+span {
+  color: #000;
+}
